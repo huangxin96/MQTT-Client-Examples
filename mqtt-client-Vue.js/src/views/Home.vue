@@ -160,16 +160,16 @@ export default {
   data() {
     return {
       connection: {
-        host: 'broker.emqx.io',
-        port: 8083,
+        host: '192.168.3.36',
+        port: 1884,
         endpoint: '/mqtt',
         clean: true, // 保留会话
         connectTimeout: 4000, // 超时时间
         reconnectPeriod: 4000, // 重连时间间隔
         // 认证信息
         clientId: 'mqttjs_3be2c321',
-        username: 'emqx_test',
-        password: 'emqx_test',
+        username: 'admin',
+        password: '123456',
       },
       subscription: {
         topic: 'topic/mqttx',
